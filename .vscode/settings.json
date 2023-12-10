@@ -1,0 +1,21 @@
+{
+  "detectedConfig": {
+    "typescript": false,
+    "naming": "Kebab Case",
+    "unit": "px",
+    "framework": "html-css",
+    "styling": "CSS"
+  },
+  "locofyConfig": {
+    "project_name": "FAQ Accordion",
+    "id": "6574e83058783d3a83602794",
+    "framework": "html-css",
+    "typescript": false,
+    "path": "public/",
+    "componentsPath": "/Users/Mitch/Desktop/coding/faq-accordion-main/src/components",
+    "screensPath": "/Users/Mitch/Desktop/coding/faq-accordion-main/src/pages",
+    "styling": "CSS",
+    "unit": "px",
+    "naming": "Kebab Case"
+  }
+}

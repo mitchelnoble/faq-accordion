@@ -1,0 +1,124 @@
+.vector-icon {
+  position: relative;
+  width: 45.5px;
+  height: 44.4px;
+}
+.icon-star-1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 4px var(--padding-10xs);
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.drawer-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.faqs {
+  position: relative;
+}
+.faq {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 21px;
+}
+.what-is-frontend {
+  flex: 1;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: left;
+}
+
+.vector-icon1 {
+  position: relative;
+  width: 26px;
+  height: 26px;
+}
+.icon-plus-1 {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-10xs);
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.what-is-frontend-mentor {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.faq-divider {
+  align-self: stretch;
+  position: relative;
+  border-top: 2px solid var(--color-gray-200);
+  box-sizing: border-box;
+  height: 2px;
+}
+.how-can-i {
+  position: relative;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: left;
+  width: 476px;
+  flex-shrink: 0;
+}
+.faq-box {
+  border-radius: 25px;
+  background-color: #fff;
+  box-shadow: 0px 4px 25.5px 1px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: grid;
+  padding: 50px 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 39px;
+  z-index: 1;
+}
+.background-pattern-desktop-1-icon {
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 320px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.desktop-1 {
+  position: relative;
+  background-color: #f8eefe;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: 52px;
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}
