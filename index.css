@@ -12,12 +12,29 @@
   justify-content: flex-start;
 }
 
-.drawer-row {
+p {
+ font-size: 16px; 
+}
+
+.drawer-content {
+  display: none;
+}
+
+.drawer.open .drawer-content {
+  display: block;
+}
+
+.drawer {
   cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
+  text-align: left;
 }
+
+
 
 .faqs {
   position: relative;
@@ -35,7 +52,6 @@
   font-size: var(--font-size-base);
   font-family: var(--font-inter);
   color: var(--color-gray-100);
-  text-align: left;
 }
 
 .vector-icon1 {
@@ -52,7 +68,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-end;
 }
 .what-is-frontend-mentor {
   cursor: pointer;
