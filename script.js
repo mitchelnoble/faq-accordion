@@ -1,4 +1,5 @@
-function toggleDrawer(drawerNumber) {
+function toggleDrawer(button) {
+  const drawerNumber = button.getAttribute('data-drawer-icon');
   const drawer = document.querySelector(`.drawer:nth-child(${drawerNumber})`);
   const icon = document.getElementById(`icon${drawerNumber}`);
 
@@ -6,9 +7,9 @@ function toggleDrawer(drawerNumber) {
     console.error(`Drawer with number ${drawerNumber} not found.`);
     return;
   } else {
-    console.log(`icon${drawerNumber}`)
+    console.log(icon)
   }
-  
+
   const currentLeft = parseInt(getComputedStyle(drawer).left);
 
   // Open the selected drawer
